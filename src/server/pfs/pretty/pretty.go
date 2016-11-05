@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/docker/go-units"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/server/pkg/pretty"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/server/pkg/pretty"
 )
 
 // PrintRepoHeader prints a repo header.

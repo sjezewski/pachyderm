@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/server/pfs/drive"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/server/pfs/drive"
 
 	"go.pedge.io/pb/go/google/protobuf"
 	"go.pedge.io/proto/rpclog"

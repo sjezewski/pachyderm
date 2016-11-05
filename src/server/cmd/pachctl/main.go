@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/pachyderm/pachyderm/src/server/cmd/pachctl/cmd"
+	"github.com/sjezewski/pachyderm/src/server/cmd/pachctl/cmd"
 	"github.com/spf13/pflag"
 	"go.pedge.io/env"
 )

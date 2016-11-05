@@ -3,9 +3,9 @@ package client_test
 import (
 	"bytes"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pps"
 )
 
 func Example_pps() {

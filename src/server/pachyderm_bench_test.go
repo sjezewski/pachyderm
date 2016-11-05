@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pkg/require"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
-	"github.com/pachyderm/pachyderm/src/server/pkg/workload"
+	"github.com/sjezewski/pachyderm/src/client"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pkg/require"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/server/pkg/workload"
 	"golang.org/x/sync/errgroup"
 )
 

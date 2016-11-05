@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/pachyderm/pachyderm/src/client/pkg/discovery"
+	"github.com/sjezewski/pachyderm/src/client/pkg/discovery"
 
 	"golang.org/x/sync/errgroup"
 

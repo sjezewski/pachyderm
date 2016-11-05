@@ -8,9 +8,9 @@ import (
 
 	"github.com/dancannon/gorethink"
 	"github.com/golang/protobuf/proto"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
-	"github.com/pachyderm/pachyderm/src/server/pps/persist"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/server/pps/persist"
 
 	"go.pedge.io/pb/go/google/protobuf"
 	"go.pedge.io/pkg/time"

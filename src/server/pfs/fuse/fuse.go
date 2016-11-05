@@ -1,8 +1,8 @@
 package fuse
 
 import (
-	"github.com/pachyderm/pachyderm/src/client"
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
 )
 
 // A Mounter mounts fuse filesystems.

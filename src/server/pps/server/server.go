@@ -3,9 +3,9 @@ package server
 import (
 	"sync"
 
-	"github.com/pachyderm/pachyderm/src/client/pkg/shard"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
-	ppsserver "github.com/pachyderm/pachyderm/src/server/pps"
+	"github.com/sjezewski/pachyderm/src/client/pkg/shard"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
+	ppsserver "github.com/sjezewski/pachyderm/src/server/pps"
 	"go.pedge.io/proto/rpclog"
 	kube "k8s.io/kubernetes/pkg/client/unversioned"
 )

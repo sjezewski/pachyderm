@@ -7,27 +7,27 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	healthclient "github.com/pachyderm/pachyderm/src/client/health"
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pkg/discovery"
-	"github.com/pachyderm/pachyderm/src/client/pkg/grpcutil"
-	"github.com/pachyderm/pachyderm/src/client/pkg/shard"
-	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
-	"github.com/pachyderm/pachyderm/src/client/version"
-	"github.com/pachyderm/pachyderm/src/server/health"
-	pfs_persist "github.com/pachyderm/pachyderm/src/server/pfs/db"
-	"github.com/pachyderm/pachyderm/src/server/pfs/drive"
-	pfs_server "github.com/pachyderm/pachyderm/src/server/pfs/server"
-	cache_pb "github.com/pachyderm/pachyderm/src/server/pkg/cache/groupcachepb"
-	cache_server "github.com/pachyderm/pachyderm/src/server/pkg/cache/server"
-	"github.com/pachyderm/pachyderm/src/server/pkg/metrics"
-	"github.com/pachyderm/pachyderm/src/server/pkg/netutil"
-	ppsserver "github.com/pachyderm/pachyderm/src/server/pps"
-	"github.com/pachyderm/pachyderm/src/server/pps/persist"
-	persist_server "github.com/pachyderm/pachyderm/src/server/pps/persist/server"
-	pps_server "github.com/pachyderm/pachyderm/src/server/pps/server"
+	"github.com/sjezewski/pachyderm/src/client"
+	healthclient "github.com/sjezewski/pachyderm/src/client/health"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pkg/discovery"
+	"github.com/sjezewski/pachyderm/src/client/pkg/grpcutil"
+	"github.com/sjezewski/pachyderm/src/client/pkg/shard"
+	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/client/version"
+	"github.com/sjezewski/pachyderm/src/server/health"
+	pfs_persist "github.com/sjezewski/pachyderm/src/server/pfs/db"
+	"github.com/sjezewski/pachyderm/src/server/pfs/drive"
+	pfs_server "github.com/sjezewski/pachyderm/src/server/pfs/server"
+	cache_pb "github.com/sjezewski/pachyderm/src/server/pkg/cache/groupcachepb"
+	cache_server "github.com/sjezewski/pachyderm/src/server/pkg/cache/server"
+	"github.com/sjezewski/pachyderm/src/server/pkg/metrics"
+	"github.com/sjezewski/pachyderm/src/server/pkg/netutil"
+	ppsserver "github.com/sjezewski/pachyderm/src/server/pps"
+	"github.com/sjezewski/pachyderm/src/server/pps/persist"
+	persist_server "github.com/sjezewski/pachyderm/src/server/pps/persist/server"
+	pps_server "github.com/sjezewski/pachyderm/src/server/pps/server"
 
 	flag "github.com/spf13/pflag"
 	"go.pedge.io/env"
@@ -90,7 +90,7 @@ func do(appEnvObj interface{}) error {
 	rethinkAddress := fmt.Sprintf("%s:28015", appEnv.DatabaseAddress)
 	if appEnv.Init {
 		if err := setClusterID(etcdClient); err != nil {
-			return fmt.Errorf("error connecting to etcd, if this error persists it likely indicates that kubernetes services are not working correctly. See https://github.com/pachyderm/pachyderm/blob/master/SETUP.md#pachd-or-pachd-init-crash-loop-with-error-connecting-to-etcd for more info")
+			return fmt.Errorf("error connecting to etcd, if this error persists it likely indicates that kubernetes services are not working correctly. See https://github.com/sjezewski/pachyderm/blob/master/SETUP.md#pachd-or-pachd-init-crash-loop-with-error-connecting-to-etcd for more info")
 		}
 		if err := persist_server.InitDBs(rethinkAddress, appEnv.PPSDatabaseName); err != nil {
 			return err

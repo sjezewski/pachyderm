@@ -5,10 +5,10 @@ import (
 	"io"
 	"math/rand"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
 )
 
 // RunWorkload runs a test workload against a Pachyderm cluster.

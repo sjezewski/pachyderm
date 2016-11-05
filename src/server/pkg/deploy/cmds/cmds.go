@@ -9,9 +9,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/pachyderm/pachyderm/src/client/version"
-	"github.com/pachyderm/pachyderm/src/server/pkg/deploy"
-	"github.com/pachyderm/pachyderm/src/server/pkg/deploy/assets"
+	"github.com/sjezewski/pachyderm/src/client/version"
+	"github.com/sjezewski/pachyderm/src/server/pkg/deploy"
+	"github.com/sjezewski/pachyderm/src/server/pkg/deploy/assets"
 	"github.com/spf13/cobra"
 	"go.pedge.io/pkg/cobra"
 	"go.pedge.io/pkg/exec"

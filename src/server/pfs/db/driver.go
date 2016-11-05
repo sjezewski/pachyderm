@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	pfsserver "github.com/pachyderm/pachyderm/src/server/pfs"
-	"github.com/pachyderm/pachyderm/src/server/pfs/db/persist"
-	"github.com/pachyderm/pachyderm/src/server/pfs/drive"
+	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	pfsserver "github.com/sjezewski/pachyderm/src/server/pfs"
+	"github.com/sjezewski/pachyderm/src/server/pfs/db/persist"
+	"github.com/sjezewski/pachyderm/src/server/pfs/drive"
 
 	"github.com/dancannon/gorethink"
 	"github.com/gogo/protobuf/proto"

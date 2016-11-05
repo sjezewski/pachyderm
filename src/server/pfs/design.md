@@ -9,7 +9,7 @@ As you shall see, there are two major attributes of RethinkDB that significantly
 
 ## Motivation
 
-See Github issue [#411](https://github.com/pachyderm/pachyderm/issues/411).
+See Github issue [#411](https://github.com/sjezewski/pachyderm/issues/411).
 
 ## Schema
 

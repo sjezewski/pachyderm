@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/sjezewski/pachyderm/src/client"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pkg/require"
 )
 
 func getPachClient(t testing.TB) *client.APIClient {

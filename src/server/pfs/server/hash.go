@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"hash"
 
-	"github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
 )
 
 func newHash() hash.Hash {

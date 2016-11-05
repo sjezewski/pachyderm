@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pachyderm/pachyderm/src/server/cmd/pachctl/cmd"
+	"github.com/sjezewski/pachyderm/src/server/cmd/pachctl/cmd"
 	"github.com/spf13/cobra/doc"
 	"go.pedge.io/env"
 )
