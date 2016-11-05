@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pachyderm/pachyderm/src/server/pfs/server"
-	"github.com/pachyderm/pachyderm/src/server/pkg/deploy"
+	"github.com/sjezewski/pachyderm/src/server/pfs/server"
+	"github.com/sjezewski/pachyderm/src/server/pkg/deploy"
 	"github.com/ugorji/go/codec"
 	"k8s.io/kubernetes/pkg/api/resource"
 	"k8s.io/kubernetes/pkg/api/unversioned"

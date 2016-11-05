@@ -17,9 +17,9 @@ import (
 
 	"github.com/cenkalti/backoff"
 	"github.com/golang/groupcache"
-	"github.com/pachyderm/pachyderm/src/client"
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/server/pkg/obj"
+	"github.com/sjezewski/pachyderm/src/client"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/server/pkg/obj"
 )
 
 type objBlockAPIServer struct {

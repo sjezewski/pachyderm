@@ -1,7 +1,7 @@
 package health
 
 import (
-	"github.com/pachyderm/pachyderm/src/client/health"
+	"github.com/sjezewski/pachyderm/src/client/health"
 	"go.pedge.io/pb/go/google/protobuf"
 	"golang.org/x/net/context"
 )

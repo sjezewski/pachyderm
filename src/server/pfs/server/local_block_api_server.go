@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"time"
 
-	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
 	"go.pedge.io/pb/go/google/protobuf"
 	"go.pedge.io/proto/rpclog"
 	"go.pedge.io/proto/stream"

@@ -78,7 +78,7 @@ func (c *googleClient) IsRetryable(err error) (ret bool) {
 	if !ok {
 		return false
 	}
-	// https://github.com/pachyderm/pachyderm/issues/912
+	// https://github.com/sjezewski/pachyderm/issues/912
 	return googleErr.Code >= 500 || strings.Contains(err.Error(), "Parse Error")
 }
 

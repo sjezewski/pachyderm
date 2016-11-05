@@ -4,8 +4,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	"github.com/pachyderm/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/sjezewski/pachyderm/src/client/pps"
 
 	protostream "go.pedge.io/proto/stream"
 )

@@ -1,9 +1,9 @@
 package example
 
 import (
-	"github.com/pachyderm/pachyderm/src/client"
-	"github.com/pachyderm/pachyderm/src/client/pfs"
-	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
+	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/sjezewski/pachyderm/src/client/pfs"
+	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pachyderm/pachyderm/src/client"
-	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/sjezewski/pachyderm/src/client/pkg/require"
 )
 
 func TestSeekRead(t *testing.T) {
