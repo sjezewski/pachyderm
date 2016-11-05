@@ -10,9 +10,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/sjezewski/pachyderm/src/client/health"
-	"github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/client/pps"
+	"github.com/pachyderm/pachyderm/src/client/health"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pps"
 
 	google_protobuf "go.pedge.io/pb/go/google/protobuf"
 )

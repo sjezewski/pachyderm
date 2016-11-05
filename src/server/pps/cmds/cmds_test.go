@@ -11,7 +11,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
 	"github.com/spf13/cobra"
 )
 

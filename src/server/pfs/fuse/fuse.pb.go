@@ -32,7 +32,7 @@ package fuse
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import pfs "github.com/sjezewski/pachyderm/src/client/pfs"
+import pfs "github.com/pachyderm/pachyderm/src/client/pfs"
 import google_protobuf2 "go.pedge.io/pb/go/google/protobuf"
 
 // Reference imports to suppress errors if they are not otherwise used.

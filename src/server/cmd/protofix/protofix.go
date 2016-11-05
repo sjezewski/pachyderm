@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sjezewski/pachyderm/src/server/pkg/protofix"
+	"github.com/pachyderm/pachyderm/src/server/pkg/protofix"
 )
 
 func usage() {

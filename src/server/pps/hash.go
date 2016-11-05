@@ -3,7 +3,7 @@ package pps
 import (
 	"hash/adler32"
 
-	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
+	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
 )
 
 // A Hasher represents a job/pipeline hasher.

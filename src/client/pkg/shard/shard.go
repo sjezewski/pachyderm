@@ -1,8 +1,8 @@
 package shard
 
 import (
-	"github.com/sjezewski/pachyderm/src/client/pkg/discovery"
-	"github.com/sjezewski/pachyderm/src/client/pkg/grpcutil"
+	"github.com/pachyderm/pachyderm/src/client/pkg/discovery"
+	"github.com/pachyderm/pachyderm/src/client/pkg/grpcutil"
 	"google.golang.org/grpc"
 )
 

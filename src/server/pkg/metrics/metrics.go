@@ -3,9 +3,9 @@ package metrics
 import (
 	"time"
 
-	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
-	"github.com/sjezewski/pachyderm/src/client/version"
-	db "github.com/sjezewski/pachyderm/src/server/pfs/db"
+	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
+	"github.com/pachyderm/pachyderm/src/client/version"
+	db "github.com/pachyderm/pachyderm/src/server/pfs/db"
 
 	"github.com/dancannon/gorethink"
 	"go.pedge.io/lion/proto"

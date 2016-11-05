@@ -11,8 +11,8 @@ import (
 	"text/template"
 
 	"github.com/fatih/color"
-	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
-	"github.com/sjezewski/pachyderm/src/server/pkg/pretty"
+	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
+	"github.com/pachyderm/pachyderm/src/server/pkg/pretty"
 )
 
 // PrintJobHeader prints a job header.

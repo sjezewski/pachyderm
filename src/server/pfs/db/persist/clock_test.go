@@ -3,7 +3,7 @@ package persist
 import (
 	"testing"
 
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
 )
 
 func TestNewChild(t *testing.T) {

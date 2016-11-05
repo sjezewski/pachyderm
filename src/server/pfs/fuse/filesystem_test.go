@@ -16,12 +16,12 @@ import (
 	"testing"
 
 	"bazil.org/fuse/fs/fstestutil"
-	"github.com/sjezewski/pachyderm/src/client"
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
-	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
-	persist "github.com/sjezewski/pachyderm/src/server/pfs/db"
-	"github.com/sjezewski/pachyderm/src/server/pfs/server"
+	"github.com/pachyderm/pachyderm/src/client"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
+	persist "github.com/pachyderm/pachyderm/src/server/pfs/db"
+	"github.com/pachyderm/pachyderm/src/server/pfs/server"
 	"go.pedge.io/pkg/exec"
 	"google.golang.org/grpc"
 )

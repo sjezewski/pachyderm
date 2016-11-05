@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
+	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
 )
 
 type record struct {

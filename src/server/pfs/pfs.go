@@ -3,7 +3,7 @@ package pfs
 import (
 	"fmt"
 
-	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
 )
 
 // ErrFileNotFound represents a file-not-found error.

@@ -3,7 +3,7 @@ package pfs
 import (
 	"sort"
 
-	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
 	"go.pedge.io/proto/time"
 )
 

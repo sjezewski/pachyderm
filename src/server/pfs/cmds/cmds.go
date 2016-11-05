@@ -17,11 +17,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/sjezewski/pachyderm/src/client"
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/server/pfs/fuse"
-	"github.com/sjezewski/pachyderm/src/server/pfs/pretty"
-	"github.com/sjezewski/pachyderm/src/server/pkg/cmd"
+	"github.com/pachyderm/pachyderm/src/client"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/server/pfs/fuse"
+	"github.com/pachyderm/pachyderm/src/server/pfs/pretty"
+	"github.com/pachyderm/pachyderm/src/server/pkg/cmd"
 
 	"github.com/spf13/cobra"
 	"go.pedge.io/pkg/cobra"

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/sjezewski/pachyderm/src/client"
+	"github.com/pachyderm/pachyderm/src/client"
 )
 
 func Example_pfs() {

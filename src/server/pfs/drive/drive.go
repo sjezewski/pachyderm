@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
 )
 
 // ListFileMode specifies how ListFile executes.

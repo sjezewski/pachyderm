@@ -20,12 +20,12 @@ import (
 	"go.pedge.io/proto/server"
 	"google.golang.org/grpc"
 
-	pclient "github.com/sjezewski/pachyderm/src/client"
-	"github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
-	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
-	"github.com/sjezewski/pachyderm/src/client/version"
-	persist "github.com/sjezewski/pachyderm/src/server/pfs/db"
+	pclient "github.com/pachyderm/pachyderm/src/client"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
+	"github.com/pachyderm/pachyderm/src/client/version"
+	persist "github.com/pachyderm/pachyderm/src/server/pfs/db"
 )
 
 const (
@@ -1771,7 +1771,7 @@ func TestPutFileURL(t *testing.T) {
 	require.NoError(t, c.CreateRepo(repo))
 	_, err := c.StartCommit(repo, "master")
 	require.NoError(t, err)
-	require.NoError(t, c.PutFileURL(repo, "master", "readme", "https://raw.githubusercontent.com/sjezewski/pachyderm/master/README.md"))
+	require.NoError(t, c.PutFileURL(repo, "master", "readme", "https://raw.githubusercontent.com/pachyderm/pachyderm/master/README.md"))
 	require.NoError(t, c.FinishCommit(repo, "master"))
 	fileInfo, err := c.InspectFile(repo, "master", "readme", "", false, nil)
 	require.NoError(t, err)

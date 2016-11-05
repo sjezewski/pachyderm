@@ -3,7 +3,7 @@ package client
 import (
 	"io"
 
-	"github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pfs"
 
 	google_protobuf "go.pedge.io/pb/go/google/protobuf"
 	protostream "go.pedge.io/proto/stream"

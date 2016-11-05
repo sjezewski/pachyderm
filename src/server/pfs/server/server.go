@@ -1,9 +1,9 @@
 package server
 
 import (
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/server/pfs/drive"
-	"github.com/sjezewski/pachyderm/src/server/pkg/obj"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/server/pfs/drive"
+	"github.com/pachyderm/pachyderm/src/server/pkg/obj"
 )
 
 var (

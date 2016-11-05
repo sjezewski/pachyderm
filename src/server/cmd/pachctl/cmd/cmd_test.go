@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
-	deploycmds "github.com/sjezewski/pachyderm/src/server/pkg/deploy/cmds"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	deploycmds "github.com/pachyderm/pachyderm/src/server/pkg/deploy/cmds"
 	api "k8s.io/kubernetes/pkg/api/v1"
 )
 

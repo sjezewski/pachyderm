@@ -22,9 +22,9 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "go.pedge.io/pb/go/google/protobuf"
-import fuse "github.com/sjezewski/pachyderm/src/server/pfs/fuse"
-import _ "github.com/sjezewski/pachyderm/src/client/pfs"
-import pps1 "github.com/sjezewski/pachyderm/src/client/pps"
+import fuse "github.com/pachyderm/pachyderm/src/server/pfs/fuse"
+import _ "github.com/pachyderm/pachyderm/src/client/pfs"
+import pps1 "github.com/pachyderm/pachyderm/src/client/pps"
 
 import (
 	context "golang.org/x/net/context"

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
-	"github.com/sjezewski/pachyderm/src/server/pfs/db/persist"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/server/pfs/db/persist"
 
 	"github.com/dancannon/gorethink"
 )

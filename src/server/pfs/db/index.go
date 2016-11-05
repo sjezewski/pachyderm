@@ -1,7 +1,7 @@
 package persist
 
 import (
-	"github.com/sjezewski/pachyderm/src/server/pfs/db/persist"
+	"github.com/pachyderm/pachyderm/src/server/pfs/db/persist"
 
 	"github.com/dancannon/gorethink"
 )

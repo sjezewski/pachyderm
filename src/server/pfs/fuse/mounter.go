@@ -7,8 +7,8 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/sjezewski/pachyderm/src/client"
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
 	"go.pedge.io/lion"
 )
 

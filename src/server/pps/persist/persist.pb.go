@@ -44,8 +44,8 @@ import fmt "fmt"
 import math "math"
 import google_protobuf "go.pedge.io/pb/go/google/protobuf"
 import google_protobuf1 "go.pedge.io/pb/go/google/protobuf"
-import pfs "github.com/sjezewski/pachyderm/src/client/pfs"
-import pps "github.com/sjezewski/pachyderm/src/client/pps"
+import pfs "github.com/pachyderm/pachyderm/src/client/pfs"
+import pps "github.com/pachyderm/pachyderm/src/client/pps"
 
 import (
 	context "golang.org/x/net/context"

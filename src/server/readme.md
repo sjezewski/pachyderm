@@ -62,7 +62,7 @@ This will remove all dependencies and you'll start from scratch. It's a sledgeha
 
 In my experience, if I'm tracking down more than a few conflicting errors, I'll blow away and restart.
 
-Note -- you'll have to replace the client symlink at `src/server/vendor/github.com/sjezewski/pachyderm/src/client`
+Note -- you'll have to replace the client symlink at `src/server/vendor/github.com/pachyderm/pachyderm/src/client`
 
 ```
 rm -rf src/server/vendor
@@ -86,9 +86,9 @@ If you see a message like this:
 
 ```shell
 CGOENABLED=0 GO15VENDOREXPERIMENT=1 go test -cover -v -short $(go list ./src/server/... | grep -v '/src/server/vendor/')
-package github.com/sjezewski/pachyderm/src/server/cmd/job-shim
-        imports github.com/sjezewski/pachyderm/src/client
-        imports github.com/sjezewski/pachyderm/src/client/pfs
+package github.com/pachyderm/pachyderm/src/server/cmd/job-shim
+        imports github.com/pachyderm/pachyderm/src/client
+        imports github.com/pachyderm/pachyderm/src/client/pfs
         imports github.com/gengo/grpc-gateway/runtime
         imports google.golang.org/grpc
         imports google.golang.org/grpc/internal: use of internal package not allowed

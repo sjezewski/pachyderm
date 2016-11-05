@@ -13,17 +13,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sjezewski/pachyderm"
-	"github.com/sjezewski/pachyderm/src/client"
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/client/pkg/require"
-	"github.com/sjezewski/pachyderm/src/client/pkg/uuid"
-	ppsclient "github.com/sjezewski/pachyderm/src/client/pps"
-	pfspretty "github.com/sjezewski/pachyderm/src/server/pfs/pretty"
-	"github.com/sjezewski/pachyderm/src/server/pkg/workload"
-	ppsserver "github.com/sjezewski/pachyderm/src/server/pps"
-	ppspretty "github.com/sjezewski/pachyderm/src/server/pps/pretty"
-	pps_server "github.com/sjezewski/pachyderm/src/server/pps/server"
+	"github.com/pachyderm/pachyderm"
+	"github.com/pachyderm/pachyderm/src/client"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/client/pkg/require"
+	"github.com/pachyderm/pachyderm/src/client/pkg/uuid"
+	ppsclient "github.com/pachyderm/pachyderm/src/client/pps"
+	pfspretty "github.com/pachyderm/pachyderm/src/server/pfs/pretty"
+	"github.com/pachyderm/pachyderm/src/server/pkg/workload"
+	ppsserver "github.com/pachyderm/pachyderm/src/server/pps"
+	ppspretty "github.com/pachyderm/pachyderm/src/server/pps/pretty"
+	pps_server "github.com/pachyderm/pachyderm/src/server/pps/server"
 	"go.pedge.io/proto/time"
 	"golang.org/x/net/context"
 	"k8s.io/kubernetes/pkg/api"
@@ -1837,7 +1837,7 @@ func TestAssets(t *testing.T) {
 	assetPaths := []string{"doc/deployment/pipeline_spec.md"}
 
 	for _, path := range assetPaths {
-		doc, err := ioutil.ReadFile(filepath.Join(os.Getenv("GOPATH"), "src/github.com/sjezewski/pachyderm/", path))
+		doc, err := ioutil.ReadFile(filepath.Join(os.Getenv("GOPATH"), "src/github.com/pachyderm/pachyderm/", path))
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -3323,7 +3323,7 @@ func TestListCommitReturnsBlankCommit(t *testing.T) {
 	require.Equal(t, 1, len(commitInfos.CommitInfo))
 }
 
-// TestChainedPipelines tracks https://github.com/sjezewski/pachyderm/issues/797
+// TestChainedPipelines tracks https://github.com/pachyderm/pachyderm/issues/797
 func TestChainedPipelines(t *testing.T) {
 	if testing.Short() {
 		t.Skip("Skipping integration tests in short mode")
@@ -3382,7 +3382,7 @@ func TestChainedPipelines(t *testing.T) {
 	require.Equal(t, 4, len(results))
 }
 
-// TestChainedPipelinesNoDelay tracks https://github.com/sjezewski/pachyderm/issues/842
+// TestChainedPipelinesNoDelay tracks https://github.com/pachyderm/pachyderm/issues/842
 func TestChainedPipelinesNoDelay(t *testing.T) {
 	t.Skip("This test fails")
 	if testing.Short() {

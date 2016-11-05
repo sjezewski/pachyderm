@@ -64,7 +64,7 @@ import _ "github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis/google/a
 import google_protobuf1 "go.pedge.io/pb/go/google/protobuf"
 import google_protobuf2 "go.pedge.io/pb/go/google/protobuf"
 import google_protobuf3 "go.pedge.io/pb/go/google/protobuf"
-import _ "github.com/sjezewski/pachyderm/src/client/pkg/shard"
+import _ "github.com/pachyderm/pachyderm/src/client/pkg/shard"
 
 import (
 	context "golang.org/x/net/context"

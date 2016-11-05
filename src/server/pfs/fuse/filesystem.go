@@ -14,9 +14,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/sjezewski/pachyderm/src/client"
-	pfsclient "github.com/sjezewski/pachyderm/src/client/pfs"
-	"github.com/sjezewski/pachyderm/src/server/pfs/drive"
+	"github.com/pachyderm/pachyderm/src/client"
+	pfsclient "github.com/pachyderm/pachyderm/src/client/pfs"
+	"github.com/pachyderm/pachyderm/src/server/pfs/drive"
 	"go.pedge.io/lion/proto"
 	"go.pedge.io/proto/time"
 	"golang.org/x/net/context"
